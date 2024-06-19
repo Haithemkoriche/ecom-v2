@@ -1,0 +1,121 @@
+    .content-wrapper h4 {
+    color:  #5d596c;
+}
+:where(.css-1uweeqc).ant-menu-dark .ant-menu-item-selected, :where(.css-1uweeqc).ant-menu-dark>.ant-menu .ant-menu-item-selected {
+    background-color: red !important:
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    padding: 9px;
+    color: #994bc2;
+}
+/*START DASHBOARD*/
+.dashboard .products .card-content {
+    /*border-bottom: 3px solid #994bc2;*/
+    border-radius: 8px;
+}
+.dashboard .products .media {
+    justify-content: space-between;
+}
+.dashboard .products .products-icon {
+    color: #994bc2;
+    background: #eae8fd !important;
+    padding: 8px;
+    border-radius: 50%;
+}
+.dashboard .products .products-icon svg {
+    font-size: 2.5rem !important;
+}
+.dashboard .products .media .media-body h3,.dashboard .products .media .media-body span{
+    color: #5d596c;
+    font-size: large;
+    text-align: end;
+}
+/*END DASHBOARD*/
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #a5a3ae !important;
+}
+/*.form-horizontal {*/
+/*    padding: 1rem 3rem;*/
+/*}*/
+.card-header {
+    background: none;
+    border: 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #5d596c;
+    text-align: center;
+}
+.card {
+    border: 0;
+    border-top: 4px solid #994bc2;
+}
+.header-table {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+}
+@media only screen and (max-width: 600px) {
+    .form-horizontal {
+        padding: 7px !important;
+    }
+    main {
+        padding: 3px  !important;
+    }
+    .header-table {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .logo-page h4 {
+        text-align: center;
+    }
+    /*.card {*/
+    /*    overflow-y: scroll;*/
+    /*}*/
+    main {
+        overflow: hidden;
+    }
+    .ant-layout-sider-collapsed {
+        max-width: 0px !important;
+        min-width: 0px !important;
+    }
+}
+.ant-select-selector{
+    padding: 6px !important;
+    border-radius: 0 !important;
+}
+.ant-select-single {
+    height: 41px !important;
+}
+.ant-select-selector:hover,
+.ant-select-selector:active{
+    border-color: #994bc2 !important;
+    box-shadow: none !important;
+}
+
+
+
+body::-webkit-scrollbar {
+    width: 8px;               /* width of the entire scrollbar */
+}
+
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #994bc2;  /* creates padding around scroll thumb */
+    background: #994bc2 !important;
+}
+
+.remove-item{
+    background: #e81224;
+    padding: 4px;
+    color: #FFF;
+    cursor: pointer;
+}

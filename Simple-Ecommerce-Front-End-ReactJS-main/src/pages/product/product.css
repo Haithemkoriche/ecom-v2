@@ -1,0 +1,6 @@
+/*.ant-btn {*/
+/*    font-size: small !important;*/
+/*}*/
+.ant-popconfirm-buttons button{
+    height: 40px !important;
+}

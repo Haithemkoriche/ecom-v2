@@ -1,0 +1,144 @@
+.popular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /*height: 90vh;*/
+    margin-bottom:  5rem;
+}
+.popular p {
+    margin: 0;
+    padding: 0;
+}
+.popular h1{
+    color: #171717;
+    font-size: 50px;
+    /*font-weight: 600;*/
+}
+.popular hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+.popular-item {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+/*RESPONSIVE MOBILE SECTION*/
+@media(max-width: 1280px) {
+    .popular{
+        /*height: 70vh;*/
+    }
+    .popular h1{
+        font-size: 40px;
+    }
+    .popular hr {
+        width: 160px;
+        height: 4px;
+    }
+    .popular-item {
+        gap: 20px;
+        margin-top: 30px;
+    }
+}
+@media(max-width: 1024px) {
+    .popular{
+        /*height: 60vh;*/
+    }
+    .item .item-image {
+        width: 172px !important;
+    }
+    .popular h1{
+        font-size: 30px;
+    }
+    .popular hr {
+        width: 120px;
+        height: 3px;
+    }
+    .popular-item {
+        gap: 15px;
+        margin-top: 20px;
+    }
+    .item_cart {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 11px;
+        width: 81% !important;
+        height: 43px !important;;
+        border-radius: 0;
+        margin-top: 9px;
+        color: white;
+        font-size: 18px !important;
+        font-weight: 300;
+        cursor: pointer;
+    }
+    .item_cart img {
+        width: auto !important;
+    }
+}
+@media(max-width: 800px) {
+    .popular{
+        gap: 6px;
+        /*height: 50vh;*/
+    }
+    .item .item-image {
+        width: 100% !important;
+    }
+    .popular h1{
+        font-size: 20px;
+    }
+    .popular hr {
+        width: 100px;
+    }
+    .popular-item {
+        gap: 5px;
+    }
+    .item_cart {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 11px;
+        width: 62% !important;
+        height: 40px !important;
+        border-radius: 0;
+        margin-top: 9px;
+        color: white;
+        font-size: 15px !important;
+        font-weight: 300;
+        cursor: pointer;
+    }
+    .item_cart img {
+        width: auto !important;
+    }
+    .popular .item {
+        /* width: 120px; */
+        width: auto !important;
+        font-size: 12px;
+    }
+}
+@media (max-width: 750px) {
+    .popular {
+        /*height: 90vh;*/
+    }
+    .popular .item p{
+        margin-top: 9px;
+        font-family: "Poppins", sans-serif;
+    }
+    .popular .item{
+        padding: 9px;
+    }
+    .popular-item {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .item_cart {
+        gap: 4px !important;
+        width: 62% !important;
+        height: 36px !important;
+        font-size: 14px !important;
+    }
+}

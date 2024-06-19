@@ -1,0 +1,253 @@
+section {
+    padding: 50px 0px 45px 0px;
+    /*min-height: 100vh;*/
+}
+section a, section a:hover,section a:focus,section a:active {
+    text-decoration: none;
+    outline: none;
+}
+section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.site-heading p {
+    display: block;
+    color: #171717;
+    font-size: 68px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.site-heading p span {
+    color: #00a01d;
+}
+
+.site-heading h4 {
+    display: inline-block;
+    padding-bottom: 20px;
+    position: relative;
+    text-transform: capitalize;
+    z-index: 1;
+}
+
+/*.site-heading h4::before {*/
+/*    background: #00a01d none repeat scroll 0 0;*/
+/*    bottom: 0;*/
+/*    content: "";*/
+/*    height: 6px;*/
+/*    left: 24%;*/
+/*    margin-left: 0;*/
+/*    position: absolute;*/
+/*    width: 200px;*/
+/*}*/
+
+.site-heading {
+    margin-bottom: 60px;
+    overflow: hidden;
+    margin-top: -5px;
+}
+
+.carousel-shadow .owl-stage-outer {
+    margin: -15px -15px 0;
+    padding: 15px;
+}
+
+.we-offer-area .our-offer-carousel .owl-dots .owl-dot span {
+    background: #ffffff none repeat scroll 0 0;
+    border: 2px solid;
+    height: 15px;
+    margin: 0 5px;
+    width: 15px;
+}
+
+.we-offer-area .our-offer-carousel .owl-dots .owl-dot.active span {
+    background: #00a01d none repeat scroll 0 0;
+    border-color: #00a01d;
+}
+
+.we-offer-area .service__item {
+    background: #ffffff none repeat scroll 0 0;
+    -moz-box-shadow: 0 0 10px #cccccc;
+    -webkit-box-shadow: 0 0 10px #cccccc;
+    -o-box-shadow: 0 0 10px #cccccc;
+    box-shadow: 0 0 10px #cccccc;
+    overflow: hidden;
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.we-offer-area.text-center .service__item {
+    background: #ffffff none repeat scroll 0 0;
+    /*border: medium none;*/
+    padding: 67px 40px 64px;
+    border-radius: 0% 100% 3% 97% / 79% 17% 83% 21%;
+}
+
+.we-offer-area.text-center .service__item svg {
+    background: #994bc2 none repeat scroll 0 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 40px;
+    height: 70px;
+    line-height: 80px;
+    position: relative;
+    text-align: center;
+    width: 70px;
+    z-index: 1;
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    margin-bottom: 25px;
+    padding: 9px;
+}
+
+.we-offer-area.text-center .service__item svg::after {
+    border: 2px solid #994bc2;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    content: "";
+    height: 90px;
+    left: -5px;
+    position: absolute;
+    top: -5px;
+    width: 90px;
+    z-index: -1;
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.we-offer-area.item-border-less .service__item {
+    border: medium none;
+}
+
+.we-offer-area .our-offer-items.less-carousel .equal-height {
+    margin-bottom: 30px;
+}
+
+.we-offer-area.item-border-less .service__item .number {
+    /*font-family: "Poppins",sans-serif;*/
+    font-size: 50px;
+    font-weight: 900;
+    opacity: 0.1;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.our-offer-carousel.center-active .owl-item:nth-child(2n) .service__item,
+.we-offer-area.center-active .single-item:nth-child(2n) .service__item {
+    background: #994bc2 none repeat scroll 0 0;
+}
+
+.our-offer-carousel.center-active .owl-item:nth-child(2n) .service__item i,
+.our-offer-carousel.center-active .owl-item:nth-child(2n) .service__item h4,
+.our-offer-carousel.center-active .owl-item:nth-child(2n) .service__item p,
+.we-offer-area.center-active .single-item:nth-child(2n) .service__item i,
+.we-offer-area.center-active .single-item:nth-child(2n) .service__item h4,
+.we-offer-area.center-active .single-item:nth-child(2n) .service__item p {
+    color: #ffffff;
+}
+
+.we-offer-area .service__item svg {
+    color: #994bc2;
+    display: inline-block;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.we-offer-area .service__item h4 {
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: cursive;
+}
+
+.we-offer-area .service__item p {
+    margin: 0;
+    font-family: cursive;
+}
+
+.we-offer-area .service__item svg,
+.we-offer-area .service__item h4,
+.we-offer-area .service__item p {
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.we-offer-area .service__item::after {
+    background: #994bc2 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: -100%;
+    position: absolute;
+    top: 0;
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    width: 100%;
+    z-index: -1;
+}
+
+.we-offer-area .service__item:hover::after {
+    left: 0;
+}
+
+.we-offer-area .service__item:hover svg,
+.we-offer-area .service__item:hover h4,
+.we-offer-area .service__item:hover p {
+    color: #ffffff !important;
+}
+
+.we-offer-area.text-center .service__item:hover svg::after {
+    border-color: #994bc2 !important;
+}
+
+.we-offer-area.text-center .service__item:hover svg {
+    background-color: #ffffff !important;
+    color: #994bc2 !important;
+}
+
+.we-offer-area.text-left .service__item svg {
+    background: #994bc2 none repeat scroll 0 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 60px;
+    height: 100px;
+    line-height: 100px;
+    margin-bottom: 30px;
+    position: relative;
+    width: 100px;
+    z-index: 1;
+    text-align: center;
+}
+
+.we-offer-area.text-left .service__item svg::after {
+    border: 2px solid #994bc2;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    content: "";
+    height: 120px;
+    left: -10px;
+    position: absolute;
+    top: -10px;
+    width: 120px;
+}
